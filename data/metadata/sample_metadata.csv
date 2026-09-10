@@ -1,0 +1,7 @@
+sample_id,geo_accession,condition,timepoint,replicate
+F2,GSM4947350,control,0h,1
+G6,GSM4947353,control,0h,2
+F3,GSM4947351,ibrutinib,6h,1
+G7,GSM4947354,ibrutinib,6h,2
+F4,GSM4947352,ibrutinib,48h,1
+G8,GSM4947355,ibrutinib,48h,2
