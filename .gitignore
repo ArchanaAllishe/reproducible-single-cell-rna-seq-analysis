@@ -1,0 +1,33 @@
+# Raw sequencing data
+data/raw/*
+!data/raw/README.md
+
+# Reference genomes
+data/reference/*
+!data/reference/README.md
+
+# Cell Ranger output
+data/cellranger/*
+!data/cellranger/README.md
+
+# Large sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+
+# R temporary/session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
