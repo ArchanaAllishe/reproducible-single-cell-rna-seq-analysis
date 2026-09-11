@@ -22,17 +22,17 @@ mkdir -p "$raw_data_dir" "$sra_cache_dir"
 # Match each experimental sample name with its SRA run accession.
 # These accessions identify the sequencing runs in the NCBI SRA database.
 declare -A samples=(
-    [F2]="SRR13158471"
-    [F3]="SRR13158472"
-    [F4]="SRR13158473"
-    [G6]="SRR13158474"
-    [G7]="SRR13158475"
-    [G8]="SRR13158476"
+    [Unstim1]="SRR8724694"
+    [Unstim2]="SRR8724695"
+    [Unstim3]="SRR8724696"
+    [Stim1]="SRR8724697"
+    [Stim2]="SRR8724698"
+    [Stim3]="SRR8724699"
 )
 
 
 # Process one sample at a time.
-for sample_name in F2 F3 F4 G6 G7 G8; do
+for sample_name in Unstim1 Unstim2 Unstim3 Stim1 Stim2 Stim3; do
 
     # Get the SRA accession associated with the current sample.
     sra_run="${samples[$sample_name]}"

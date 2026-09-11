@@ -1,8 +1,7 @@
 sample_id,geo_accession,sra_run,condition,replicate
-Unstim1,GSM3669244,SRR8724699,unstimulated,1
-Unstim2,GSM3669245,SRR8724700,unstimulated,2
-Unstim3,GSM3669246,SRR8724701,unstimulated,3
-Stim1,GSM3669247,SRR8724702,stimulated,1
-Stim2,GSM3669248,SRR8724703,stimulated,2
-Stim3,GSM3669249,SRR8724704,stimulated,3
-
+Unstim1,GSM3669244,SRR8724694,unstimulated,1
+Unstim2,GSM3669245,SRR8724695,unstimulated,2
+Unstim3,GSM3669246,SRR8724696,unstimulated,3
+Stim1,GSM3669247,SRR8724697,stimulated,1
+Stim2,GSM3669248,SRR8724698,stimulated,2
+Stim3,GSM3669249,SRR8724699,stimulated,3
