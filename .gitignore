@@ -30,6 +30,7 @@ data/cellranger/*
 
 # Temporary files
 *.tmp
+fasterq.tmp.*
 *.log
 
 # SRA downloads and temporary FASTQ files
@@ -39,3 +40,4 @@ data/fastq_test/
 # Local SRA Toolkit
 sratoolkit*/
 sratoolkit*.tar.gz
+

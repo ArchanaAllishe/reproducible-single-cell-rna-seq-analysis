@@ -54,12 +54,14 @@ for sample_name in Unstim1 Unstim2 Unstim3 Stim1 Stim2 Stim3; do
     # Convert the downloaded SRA data into FASTQ files.
     # --split-files creates separate files for paired-end reads.
     # --progress displays the conversion progress in the terminal.
-    fasterq-dump\
-        "$sra_cache_dir/$sra_run"\
-        --split-files\
-        --outdir "$raw_data_dir" \
-        --threads 6\
-        --progress
+    fasterq-dump \
+    "$sra_cache_dir/$sra_run" \
+    --split-files \
+    --include-technical \
+    --outdir "$raw_data_dir" \
+    --threads 6 \
+    --progress
+
 
     echo "FASTQ conversion complete for $sample_name"
 
